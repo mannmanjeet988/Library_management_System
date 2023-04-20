@@ -25,6 +25,9 @@ public class Card {
         @CreationTimestamp
         private Date issueDate;
 
+        @CreationTimestamp
+        private Date updateOn;
+
         @Enumerated(EnumType.STRING)
         private CardStatus cardStatus;
 
