@@ -1,6 +1,5 @@
 package com.example.Library_Management_system.DTO.ResponseDto;
 
-import com.example.Library_Management_system.enums.Transaction_Status;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,11 +9,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class IssueBookResponseDto {
+public class UpdateStudentEmailIdResponseDto {
 
-    private String transactionNumber;
 
-    private Transaction_Status transactionStatus;
+    private String name;
 
-    private String bookName;
+    private String emailId;
 }

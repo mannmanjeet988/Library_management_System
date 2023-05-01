@@ -21,7 +21,7 @@ public class StudentResponseDto {
 
     private Department department;
 
-    private String mobNo;
+    private String emailId;
 
     CardResponseDto cardResponseDto;
 
